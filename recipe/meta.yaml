@@ -1,4 +1,4 @@
-{% set version = '0.3.3' %}
+{% set version = "0.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,10 +11,10 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/RcppGSL_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/RcppGSL/RcppGSL_{{ version }}.tar.gz
-  sha256: 39ef207779361c9c2a84f06667136743750608ee8b34cbffbca067e317a30646
+  sha256: 09b77b64dcfbe80080db7e0f153eafa2f5f6b4c5f1bb7c3e8172354bf628dd57
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win32]
 
   rpaths:
