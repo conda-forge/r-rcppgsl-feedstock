@@ -1,4 +1,4 @@
-{% set version = "0.3.4" %}
+{% set version = "0.3.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/RcppGSL_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/RcppGSL/RcppGSL_{{ version }}.tar.gz
-  sha256: 09b77b64dcfbe80080db7e0f153eafa2f5f6b4c5f1bb7c3e8172354bf628dd57
+  sha256: 35e8a8e3c0837df58b7f710d7b4c38a9b63d2522cb3e35ca6a499c30f055ed9a
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 1001
   skip: true  # [win32]
 
   rpaths:
@@ -59,8 +59,7 @@ about:
     can all be used as a stanza to  write a similar package against another library.'
 
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
