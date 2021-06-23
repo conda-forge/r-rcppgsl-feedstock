@@ -1,4 +1,4 @@
-{% set version = "0.3.8" %}
+{% set version = "0.3.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppGSL_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppGSL/RcppGSL_{{ version }}.tar.gz
-  sha256: 7ffb047692c3717c5fee94fd115d23ce971309aa38aa42cd1e8bef67bc57d49e
+  sha256: 66d23c2f2cf775f4015617985ccd03a9426455fa33e61fdf1353e0c2879d0e7e
 
 build:
   merge_build_host: true  # [win]
