@@ -3,7 +3,7 @@ About r-rcppgsl
 
 Home: https://CRAN.R-project.org/package=RcppGSL
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppgsl-feedstock/blob/master/LICENSE.txt)
 
