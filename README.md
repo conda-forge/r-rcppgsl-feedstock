@@ -1,11 +1,22 @@
+About r-rcppgsl-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppgsl-feedstock/blob/main/LICENSE.txt)
+
 About r-rcppgsl
-===============
+---------------
 
 Home: https://CRAN.R-project.org/package=RcppGSL
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppgsl-feedstock/blob/main/LICENSE.txt)
+Summary: 'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp' to connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library.
+About r-rcppgsl
+---------------
+
+Home: https://CRAN.R-project.org/package=RcppGSL
+
+Package license: GPL-2.0-or-later
 
 Summary: 'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp' to connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -55,10 +59,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_r_base4.1</td>
+              <td>osx_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -66,6 +70,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3473&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppgsl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
