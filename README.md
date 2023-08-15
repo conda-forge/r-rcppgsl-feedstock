@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppgsl-feeds
 About r-rcppgsl
 ---------------
 
-Home: https://CRAN.R-project.org/package=RcppGSL
+Home: https://github.com/eddelbuettel/rcppgsl
 
 Package license: GPL-2.0-or-later
 
 Summary: 'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp' to connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library.
+
+Documentation: https://dirk.eddelbuettel.com/code/rcpp.gsl.html
 
 About r-rcppgsl
 ---------------
 
-Home: https://CRAN.R-project.org/package=RcppGSL
+Home: https://github.com/eddelbuettel/rcppgsl
 
 Package license: GPL-2.0-or-later
 
 Summary: 'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp' to connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library.
+
+Documentation: https://dirk.eddelbuettel.com/code/rcpp.gsl.html
 
 Current build status
 ====================
