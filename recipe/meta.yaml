@@ -1,4 +1,4 @@
-{% set version = "0.3.13" %}
+{% set version = "0.3.14" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppGSL_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppGSL/RcppGSL_{{ version }}.tar.gz
-  sha256: fe5e73bc119c6424e1a40b6fea17417a7bba93e81dbe9b7cf86dde9b8e8d93e7
+  sha256: 1ff7fc159375ae063b434a8c509cffe2435d7ff7e19c7fa79538219db5905aaa
 
 build:
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -56,9 +56,9 @@ about:
   home: https://github.com/eddelbuettel/rcppgsl
   doc_url: https://dirk.eddelbuettel.com/code/rcpp.gsl.html
   license: GPL-2.0-or-later
-  summary: "'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions\
-    \ in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp'\
-    \ to connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library."
+  summary: "'Rcpp' integration for 'GNU GSL' vectors and matrices The 'GNU Scientific Library' (or 'GSL') is a collection of numerical routines for scientific computing. It is particularly useful for C and C++ programs as it provides a standard C interface to a wide range of mathematical routines. There are over 1000 functions
+    in total with an extensive test suite. The 'RcppGSL' package provides an easy-to-use interface between 'GSL' data structures and R using concepts from 'Rcpp' which is itself a package that eases the interfaces between R and C++. This package also serves as a prime example of how to build a package that uses 'Rcpp' to
+    connect to another third-party library. The 'autoconf' script, 'inline' plugin and example package can all be used as a stanza to  write a similar package against another library."
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
